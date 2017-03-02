@@ -1,0 +1,17 @@
+{
+  "name": "styleguide",
+  "version": "1.0.0",
+  "description": "A modern styleguide for personal projects",
+  "main": "style.scss",
+  "scripts": {
+    "build": "node-sass --include-path scss ./src/style.scss ./example/style.css",
+    "watch": "node-sass -w ./src -o ./example"
+  },
+  "repository": "https://github.com/vincentbollaert/styleguide.git",
+  "author": "Vincent Bollaert <vincentbollaert@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.5.0",
+    "normalize.css": "^5.0.0"
+  }
+}

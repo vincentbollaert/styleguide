@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: $b-color-text;
+  font-family: $b-font-family;
+  font-size: $b-font-size;
+  line-height: $b-line-height;
+}
+
+button {
+  font-size: $b-font-size;
+  font-family: $b-font-family;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+dl {
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+a {
+  color: $b-color-link;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: $b-color-link;
+  }
+
+  &:active,
+  &:focus {
+    outline: 0;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  border: none;
+}
+
+table {
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+th {
+  text-align: left;
+  font-weight: normal;
+}
+
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  line-height: 1;
+  font-weight: normal;
+}
+
+// Inputs
+body,
+input,
+textarea {
+  color: $b-color-text;
+}
+
+select {
+  color: $b-color-text;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  &:focus {
+    outline: none;
+  }
+}
+
+textarea {
+  resize: none;
+}
+
+input {
+  &::-ms-clear {
+    display: none;
+  }
+}

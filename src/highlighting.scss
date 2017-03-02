@@ -1,0 +1,11 @@
+::-moz-selection {
+	background: $b-color-highlighting;
+	color: $color-white;
+	text-shadow: none;
+}
+
+::selection {
+	background: $b-color-highlighting;
+	color: $color-white;
+	text-shadow: none;
+}
